@@ -16,5 +16,5 @@ class Farm:
 
     def harvest(self) -> int:
         harvest = random.randint(0,self.__food)
-        self.food-=harvest
+        self.__food-=harvest
         return harvest

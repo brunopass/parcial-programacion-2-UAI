@@ -6,6 +6,14 @@ class Soldier(Character):
     def __init__(self, health: int, position: List, speed: float, damage: int) -> None:
         super().__init__(health, position, speed)
         self.__damage = damage
+
+    @property
+    def damage(self) -> int:
+        return self.__damage
+        
+    @damage.getter
+    def damage(self) -> int:
+        return self.__damage
     
     def atack(self, character : Character) -> None:
         character.health -= self.__damage

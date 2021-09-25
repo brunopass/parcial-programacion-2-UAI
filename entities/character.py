@@ -10,6 +10,9 @@ class Character:
         self.__position = position
         self.__speed = speed
 
+    def __del__(self):
+        pass
+
     @property
     def position(self) -> List:
         return self.__position
@@ -21,6 +24,18 @@ class Character:
     @property
     def speed(self) -> float:
         return self.__speed
+
+    @position.getter
+    def position(self) -> List:
+        return self.__position
+
+    @health.getter
+    def health(self) -> int:
+        return self.__health
+
+    @speed.getter
+    def speed(self) -> float:
+        return self.__speed
     
     @speed.setter
     def speed(self, speed : int) -> None:
@@ -29,14 +44,12 @@ class Character:
     @health.setter
     def health(self, health: int) -> None:
         self.__health = health
+        if self.__health <= 0:
+            print("character is dead")
     
     @position.setter
     def position(self, x: int, y: int) -> None:
         self.__position = [x,y]
-
-    def receive_attack(self) -> None:
-        self.__position
-        pass
 
     def walk(self,position: List) -> None:
         self.__position = position
