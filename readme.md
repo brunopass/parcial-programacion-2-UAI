@@ -1,5 +1,5 @@
 # Parcial - Passarelli Bruno
-
+![uai](https://ccdfit.com/wp-content/uploads/2019/12/Universidad-Abierta-Interamericana-UAI-01.png)
 ## preguntas
 
 #### 1. Indique tres diferencias sustanciales al momento de diseñar un programa utilizando el paradigma estructurado y paradigma orientado a objetos. (10)
