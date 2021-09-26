@@ -16,4 +16,4 @@ class Soldier(Character):
         return self.__damage
     
     def atack(self, character : Character) -> None:
-        character.health -= self.__damage
+        character.receive_damage(self.__damage)

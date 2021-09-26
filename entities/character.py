@@ -51,5 +51,8 @@ class Character:
     def position(self, x: int, y: int) -> None:
         self.__position = [x,y]
 
+    def receive_damage(self, damage : int) -> None:
+        self.health -= damage
+
     def walk(self,position: List) -> None:
         self.__position = position
