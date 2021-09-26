@@ -136,9 +136,12 @@
 ```
 
 ## Práctica💻
-
-### run docker
-```bash
-    docker build -t parcial-bruno-passarelli .
-    docker run -it parcial-bruno-passarelli
-```
+<details>
+    <summary>Run with Docker</summary>
+    <p>
+        ```bash
+            docker build -t parcial-bruno-passarelli .
+            docker run -it parcial-bruno-passarelli
+        ```
+    </p>
+</details>
