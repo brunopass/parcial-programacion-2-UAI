@@ -4,7 +4,9 @@
 
 #### 1. Indique tres diferencias sustanciales al momento de diseñar un programa utilizando el paradigma estructurado y paradigma orientado a objetos. (10)
 ```txt
-    respuesta 1
+    - reutilización
+    - abstracción
+    - subtipificación
 ```
 
 #### 2. ¿Por qué decimos que python es un lenguaje semi-interpretado y con tipado dinámico? (10)
