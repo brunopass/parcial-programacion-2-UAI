@@ -9,37 +9,107 @@
 
 #### 2. ¿Por qué decimos que python es un lenguaje semi-interpretado y con tipado dinámico? (10)
 ```txt
-    respuesta 1
+    Decimos que python es un lenguaje semi interpretado, ya que primero, el script python se traduce a bytecode que posee la extensión .pyc o .pyo
+    para luego ser interpretado.
+    El tipado dinámico se refiere a que no es necesario declarar el tipo de dato que va a ser contenido en una variable
 ```
 
 #### 3. ¿Qué estructuras condicionales permite el lenguaje python? Ejemplifique con una porción de código. (10)
-```txt
-    respuesta 1
+```py
+    Podemos utilizar:
+
+    Operadores relacionales:
+
+    == Es igual
+    != Es diferente
+    > Es mayor
+    >= Es mayor o igual
+    < Es menor
+    <= Es menor o igual
+
+    Operadores lógicos:
+
+    and
+    or
+    not
+
+    # ejemplo 1:
+    condicion1 = True
+    condicion2 = False
+    if condicion1 and condicion2:
+        # ...
+    else:
+        # ...
+
+    value1 = 0
+    
+    if value1 > 10:
+        #...
+    elif value1 >0 and value1 < 10:
+        #...
+    else:
+        #...
+
+    # ejemplo 3:
+    conditions = ["value1", "value2"]
+    if "value1" in conditions:
+        # ...
+    
 ```
 
 #### 4. ¿Qué estructuras repetitivas permite el lenguaje python? Ejemplifique con una porción de código. (10)
-```txt
-    respuesta 1
+```py
+    tenemos 2 for y while
+
+    # ejemplo for:
+    for i in range(10):
+        print(i)
+
+    # ejemplo while:
+    condition = True
+    while condition:
+        print("condition is true")
+    
 ```
 
 #### 5. ¿Cuáles son las diferencias entre listas, tuplas y diccionarios en python? (10)
-```txt
-    respuesta 1
+```py
+    - las LISTAS (List) son arrays mutables.
+    
+    - las TUPLAS (tuple) son arrays inmutables.
+
+    - los DICCIONARIOS (TypedDict) son estructuras de datos de tipo key-value
 ```
 
 #### 6. ¿Cómo se declara una clase? Ejemplifique (10)
-```txt
-    respuesta 1
+```py
+    Utilizando la palabra reservada class
+
+    ejemplo:
+
+    class Objeto:
+        # ...
 ```
 
 #### 7. ¿Cómo declaro una propiedad? Ejemplifique (10)
-```txt
-    respuesta 1
+```py
+    en python todas las propiedades de una clase son públicas,
+    sin embargo existe un standard el cual define a las propiedades
+    que empiecen con __ como 'privadas'.
+    Para agregar una propiedad solo hay que escribirla dentro de la clase como
+    una variable más.
+
+    ejemplo:
+
+    class Objeto:
+        prop_publica
+        __prop_privada
 ```
 
 #### 8. ¿Qué es el Duck typing? (10)
 ```txt
-    respuesta 1
+    El duck typing es la forma de progamar donde identificamos a nuestros elementos 
+    dependiendo de los métodos y atributos que contengan.
 ```
 
 #### 9. Ejemplifique cómo se puede implementar polimorfismo con python (10)
@@ -48,8 +118,8 @@
 ```
 
 #### 10. ¿Cuál es la diferencia entre los métodos init y new? (10)
-```txt
-    respuesta 1
+```py
+    El método __init__ crea el objeto y luego lo inicializa, no es el constructor como tal, en cambio el método __new__ sólo construye el objeto.
 ```
 
 ## Práctica
