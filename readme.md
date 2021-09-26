@@ -1,6 +1,6 @@
 # Parcial - Passarelli Bruno
 
-### preguntas
+## preguntas
 
 #### 1. Indique tres diferencias sustanciales al momento de diseñar un programa utilizando el paradigma estructurado y paradigma orientado a objetos. (10)
 ```txt
@@ -51,6 +51,8 @@
 ```txt
     respuesta 1
 ```
+
+## Práctica
 
 ### run docker
 ```bash
