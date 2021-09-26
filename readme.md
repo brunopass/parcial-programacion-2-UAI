@@ -1,6 +1,6 @@
 # Parcial - Passarelli Bruno
 ![uai](https://ccdfit.com/wp-content/uploads/2019/12/Universidad-Abierta-Interamericana-UAI-01.png)
-## preguntas
+## preguntas📝
 
 #### 1. Indique tres diferencias sustanciales al momento de diseñar un programa utilizando el paradigma estructurado y paradigma orientado a objetos. (10)
 ```txt
@@ -135,7 +135,7 @@
     el método __init__ crea el objeto y luego lo inicializa, no es el constructor como tal, en cambio el método __new__ sólo construye el objeto.
 ```
 
-## Práctica
+## Práctica💻
 
 ### run docker
 ```bash
