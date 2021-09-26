@@ -9,16 +9,16 @@
 
 #### 2. ¿Por qué decimos que python es un lenguaje semi-interpretado y con tipado dinámico? (10)
 ```txt
-    Decimos que python es un lenguaje semi interpretado, ya que primero, el script python se traduce a bytecode que posee la extensión .pyc o .pyo
+    decimos que python es un lenguaje semi interpretado, ya que primero, el script python se traduce a bytecode que posee la extensión .pyc o .pyo
     para luego ser interpretado.
-    El tipado dinámico se refiere a que no es necesario declarar el tipo de dato que va a ser contenido en una variable
+    el tipado dinámico se refiere a que no es necesario declarar el tipo de dato que va a ser contenido en una variable
 ```
 
 #### 3. ¿Qué estructuras condicionales permite el lenguaje python? Ejemplifique con una porción de código. (10)
 ```py
-    Podemos utilizar:
+    podemos utilizar:
 
-    Operadores relacionales:
+    operadores relacionales:
 
     == Es igual
     != Es diferente
@@ -27,7 +27,7 @@
     < Es menor
     <= Es menor o igual
 
-    Operadores lógicos:
+    operadores lógicos:
 
     and
     or
@@ -83,7 +83,7 @@
 
 #### 6. ¿Cómo se declara una clase? Ejemplifique (10)
 ```py
-    Utilizando la palabra reservada class
+    utilizando la palabra reservada class
 
     ejemplo:
 
@@ -96,7 +96,7 @@
     en python todas las propiedades de una clase son públicas,
     sin embargo existe un standard el cual define a las propiedades
     que empiecen con __ como 'privadas'.
-    Para agregar una propiedad solo hay que escribirla dentro de la clase como
+    para agregar una propiedad solo hay que escribirla dentro de la clase como
     una variable más.
 
     ejemplo:
@@ -113,13 +113,24 @@
 ```
 
 #### 9. Ejemplifique cómo se puede implementar polimorfismo con python (10)
-```txt
-    respuesta 1
+```py
+    class Forma:
+        def dibujar(self):
+            print('dibujar')
+
+    class Cuadrado(Forma):
+        def dibujar(self):
+            print('dibujar cuadrado')
+
+    class Circulo(Forma):
+        def dibujar(self):
+            print('dibujar circulo')
+
 ```
 
 #### 10. ¿Cuál es la diferencia entre los métodos init y new? (10)
 ```py
-    El método __init__ crea el objeto y luego lo inicializa, no es el constructor como tal, en cambio el método __new__ sólo construye el objeto.
+    el método __init__ crea el objeto y luego lo inicializa, no es el constructor como tal, en cambio el método __new__ sólo construye el objeto.
 ```
 
 ## Práctica
