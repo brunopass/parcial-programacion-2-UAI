@@ -55,7 +55,7 @@
 ## Práctica
 
 ### run docker
-```bash
+```docker
     docker build -t parcial-bruno-passarelli .
     docker run -it parcial-bruno-passarelli
 ```
